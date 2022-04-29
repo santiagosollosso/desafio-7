@@ -1,0 +1,25 @@
+/* nos permiten tener un objeto que contiene distintos valores para una misma sección */
+
+/* se arman con () y dentro tienen una key y un valor */
+
+$perfil-personas: (
+    bg-color-personas: grey,
+    border-personas: 1px solid black,
+    font-personas: 2rem
+
+);
+
+$perfil-empresas: (
+    bg-color-empresas: gold,
+    border-empresas: 2px solid black,
+    font-empresas: 2rem
+
+);
+
+#personas {
+    background-color: map-get($perfil-personas, bg-color-personas);
+}
+
+#empresas {
+    font-size: map-get($perfil-empresas, bg-color-empresas);
+}

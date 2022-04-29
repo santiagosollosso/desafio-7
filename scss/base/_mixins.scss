@@ -1,0 +1,32 @@
+@mixin prefijos($valor){
+    -o-transform: $valor;
+    -moz-transform: $valor;
+    transform: $valor;
+    -webkit-trasform: $valor;
+    
+}
+
+.magic{
+    @include prefijos(scale(4))
+}
+
+.more-magic{
+    @include prefijos (rotate(90deg))
+}
+
+@mixin flexbox($flex) {
+    display: $flex;
+}
+
+.buttom-one{
+    @include flexbox(flex)
+
+}
+
+.images{
+    @include flexbox(block)
+}
+
+.navbar {
+    @include flexbox(inline)
+}

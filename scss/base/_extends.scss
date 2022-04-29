@@ -1,0 +1,25 @@
+ /* placeholder = % + nombre {} */ 
+
+ %mensaje{
+     border-radius: 6px;
+     padding: 20px 4p;
+     border: 1px solid gray;
+ }
+
+%flexbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .error{
+     background-color: red;
+     @extend %mensaje;
+     @extend %flexbox;
+ }
+
+ .ok{
+     background-color: green;
+     @extend %mensaje;
+     @extend %flexbox;
+ }

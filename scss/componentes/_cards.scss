@@ -1,0 +1,14 @@
+.otros-servicios{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    .img-anim{
+        &:hover{
+            transform: scale(1.1);
+            transition: transform 1s;
+        }
+
+    }
+}
