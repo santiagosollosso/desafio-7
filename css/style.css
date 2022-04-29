@@ -170,11 +170,7 @@ header {
 /* nos permiten tener un objeto que contiene distintos valores para una misma sección */
 /* se arman con () y dentro tienen una key y un valor */
 #personas {
-  background-color: grey;
-}
-
-#empresas {
-  font-size: gold;
+  background-color: blue;
 }
 
 .border-menu {
@@ -225,14 +221,14 @@ header {
   -o-transform: scale(4);
   -moz-transform: scale(4);
   transform: scale(4);
-  -webkit-trasform: scale(4);
+  -webkit-transform: scale(4);
 }
 
 .more-magic {
   -o-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
   transform: rotate(90deg);
-  -webkit-trasform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
 }
 
 .buttom-one {

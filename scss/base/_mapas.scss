@@ -3,16 +3,16 @@
 /* se arman con () y dentro tienen una key y un valor */
 
 $perfil-personas: (
-    bg-color-personas: grey,
-    border-personas: 1px solid black,
-    font-personas: 2rem
+    bg-color-personas: blue,
+    border-personas: 100px solid black,
+    font-personas: 2rem,
 
 );
 
 $perfil-empresas: (
     bg-color-empresas: gold,
     border-empresas: 2px solid black,
-    font-empresas: 2rem
+    font-empresas: 4rem,
 
 );
 
@@ -21,5 +21,7 @@ $perfil-empresas: (
 }
 
 #empresas {
-    font-size: map-get($perfil-empresas, bg-color-empresas);
+    font-size: map-get($perfil-empresas, bg-font-empresas);
 }
+
+
