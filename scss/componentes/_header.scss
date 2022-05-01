@@ -2,13 +2,10 @@
 
 /* Nesting */
 
-$bg-color-header: black;
 .logo{
     display: flex;
     max-width: 16em;
     min-width: 4em;
 }
 
-@import '../base/listas';
-@import '../base/variables';
 

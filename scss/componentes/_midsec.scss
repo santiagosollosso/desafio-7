@@ -1,0 +1,5 @@
+@import 'base/mapas'
+
+.midsec{
+    text-decoration-color: map-get($map: $palette, $key:"secondary")
+}

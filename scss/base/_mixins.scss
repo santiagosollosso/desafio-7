@@ -1,32 +1,14 @@
-@mixin prefijos($valor){
-    -o-transform: $valor;
-    -moz-transform: $valor;
-    transform: $valor;
-    -webkit-transform: $valor;
+@mixin caja($color){
+    background-color: $color;
+    font-size: large;
+    
     
 }
 
-.magic{
-    @include prefijos(scale(4))
+.caja-1{
+    @include caja(rgba(0, 128, 0, 0.355))
 }
 
-.more-magic{
-    @include prefijos (rotate(90deg))
-}
-
-@mixin flexbox($flex) {
-    display: $flex;
-}
-
-.buttom-one{
-    @include flexbox(flex)
-
-}
-
-.images{
-    @include flexbox(block)
-}
-
-.navbar {
-    @include flexbox(inline)
+.caja-2{
+    @include caja(rgba(0, 0, 255, 0.379))
 }

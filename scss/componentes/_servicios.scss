@@ -1,8 +1,8 @@
-.otros-servicios{
-    padding: 10px;
+.servicios{
+    padding: 2%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     .img-anim{
         &:hover{
